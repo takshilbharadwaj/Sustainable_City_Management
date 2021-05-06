@@ -4,11 +4,11 @@
 The aim of this project was to develop a dashboard based website covering all major functionalities of a city manager in his daily routine work. So that, the city manager can collect, analyze and make decision based on the data displayed on the dashboard developed.
 This project is a team effort of:
  - [Takshil Bharadwaj](https://github.com/takshilbharadwaj/)
- - [Boris Flesch](https://github.com/borisflesch)
+ - [Boris Flesch](https://github.com/borisflesch/)
  - [Aishwarya Agarwal](https://www.github.com/aiagarwa/)
- - [Siddhesh Kankekar](https://github.com/siddhesh21)
- - [Matteo Bresciani]()
- - [Joshua Prakash Manoharan](https://github.com/josh-repository)
+ - [Siddhesh Kankekar](https://github.com/siddhesh21/)
+ - [Matteo Bresciani](https://github.com/matteobre/)
+ - [Joshua Prakash Manoharan](https://github.com/josh-repository/)
 # Pre-requisite Steps:
 Clone the Gitlab repository:
 ```
