@@ -1,11 +1,18 @@
 
 # Sustainable City Management
 # Overview
-This is an interesting project that we assigned to complete as a part of course module Advance Software Engineering. The aim of this project was to develop a dashboard based website covering all major functionalites of a city manager in his dialy routine work. So that, the city manager can collect, analyze and make decision based on the data displayed on the dashboard developed. 
+The aim of this project was to develop a dashboard based website covering all major functionalities of a city manager in his daily routine work. So that, the city manager can collect, analyze and make decision based on the data displayed on the dashboard developed.
+This project is a team effort of:
+ - [Takshil Bharadwaj](https://github.com/takshilbharadwaj/)
+ - [Boris Flesch](https://github.com/borisflesch)
+ - [Aishwarya Agarwal](https://www.github.com/aiagarwa/)
+ - [Siddhesh Kanekar](https://github.com/siddhesh21)
+ - [Matteo Bresciani]()
+ - [Joshua Prakash Manoharan](https://github.com/josh-repository)
 # Pre-requisite Steps:
 Clone the Gitlab repository:
 ```
-git clone https://gitlab.scss.tcd.ie/fleschb/sustainable-city-management.git
+git clone https://github.com/takshilbharadwaj/Sustainable_City_Management.git
 ```
 The project has been tested with Python >= 3.6.
 Requires Node minimum version of 14.15.4 (LTS).
@@ -30,7 +37,7 @@ These functionality include,
 3. Parkings: This page provides parking information like available spaces on google maps.
 4. Emergency Services: This page provides the location and contact information of various public services like, Health Care, Garda, Fire Services and Hospitals on google maps.
 5. Footfalls: This page provides live information of footfalls recorded over major crossing in the city of Dublin. 
-6. Dashboard: This gives information like temperature forecast, humidity forecast and population corelation data. 
+6. Dashboard: This gives information like temperature forecast, humidity forecast and population correlation data. 
 ## Table of Contents
 * [Versions](#versions)
 * [Demo](#demo)
@@ -50,8 +57,6 @@ These functionality include,
 | --- | --- | --- | --- | --- | --- |
 | [![Dashboard page](./frontend-pwa/src/assets/github/pic1.PNG)]() | [![Bikes page](./frontend-pwa/src/assets/github/pic2.PNG)]() | [![Buses page ](./frontend-pwa/src/assets/github/pic3.PNG)]() | [![Parkings Page](./frontend-pwa/src/assets/github/pic4.PNG)]() | [![Emergency Services page](./frontend-pwa/src/assets/github/pic5.PNG)]() |  [![Footfalls Page](./frontend-pwa/src/assets/github/pic6.PNG)]() |
 [View More(Live Demo)](https://)
-## Documentation Frontend
-The documentation for the project is available at Google Drive [Link](https://drive.google.com/drive/folders/1I2l6W3_I7wzpv2OcQOL-1KvZzZpxgOUw?usp=sharing).
 ## File Structure Frontend
 Within the repository, you'll find the following directories and files under frontend-pwa folder:
 ```
@@ -223,7 +228,7 @@ Within the repository, you'll find the following directories and files under fro
  ┗ 📜yarn.lock
 ```
 ## Browser Support
-At present, we officially aim to support the last two versions of the following browsers:
+This program is supported on the following browsers:
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
 ## Useful Links [Frontend]
 Tutorials: <https://reactjs.org/>
@@ -265,8 +270,6 @@ Tutorials: <https://reactjs.org/>
 - For  Bashboard data:
  - Frontend URL: (http://localhost:3000/admin/dashboard)
  - This will trigger four Get API function call to the backend and third party service provider:
- - https://api.openweathermap.org/data/2.5/air_pollution?lat=53.3498&lon=-6.2603&appid=d50542e129f589c12a362e67f91906fe for getting air ppollution data for dublin city.
- - https://api.openweathermap.org/data/2.5/weather?q=Dublin&units=metric&appid=d50542e129f589c12a362e67f91906fe for getting weather data.
  - http://127.0.0.1:8000/mainweather_forecast/ for getting weather forecast for upcoming ten days. 
  -  http://127.0.0.1:8000/main/ireland_population/ for getting change in ireland population.
 - For  Emergency data:
@@ -288,8 +291,6 @@ Tutorials: <https://reactjs.org/>
  - This will trigger four Get API function call to the backend
  - Use  http://127.0.0.1:8000/main/footfall_overall/ for collecting live footfalls around major streets in dublin.
  - Use  http://127.0.0.1:8000footfall_datebased/?days_interval=6&location="name" for collecting predicted footfall for next six days.
-## Documentation Backend
-- The documentation for the project is available at Google Drive [Link](https://drive.google.com/drive/folders/1I2l6W3_I7wzpv2OcQOL-1KvZzZpxgOUw?usp=sharing).
 ## File Structure Backend
 Within the repository, you'll find the following directories and files under sustainableCityManagement folder:
 ```
