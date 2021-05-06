@@ -6,7 +6,7 @@ This project is a team effort of:
  - [Takshil Bharadwaj](https://github.com/takshilbharadwaj/)
  - [Boris Flesch](https://github.com/borisflesch)
  - [Aishwarya Agarwal](https://www.github.com/aiagarwa/)
- - [Siddhesh Kanekar](https://github.com/siddhesh21)
+ - [Siddhesh Kankekar](https://github.com/siddhesh21)
  - [Matteo Bresciani]()
  - [Joshua Prakash Manoharan](https://github.com/josh-repository)
 # Pre-requisite Steps:
